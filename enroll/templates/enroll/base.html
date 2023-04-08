@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student's Info</title>
+    <link rel="stylesheet" href="{% static 'enroll/css/bootstrap.min.css' %}">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center alert-danger p-4 rounded">Function based Django CRUD</h2>
+        {% block content %}
+        {% endblock content %}
+    </div>
+    <script src="{% static 'enroll/js/bootstrap.min.js' %}"></script>
+</body>
+</html>
